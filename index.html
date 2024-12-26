@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Presently</title>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./media/branding/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./media/branding/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./media/branding/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./media/branding/favicon/site.webmanifest">
+    <!--Lato font from Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Fontawesome icons-->
+    <script src="https://kit.fontawesome.com/76e3c9c22e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--Boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CSS Style Sheet-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--jQuery script-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!--AJAX & PHP script-->
+    <script src="./mabili/js/mabili-scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <a href="./index.html" class="logo">
+                <img src="./media/branding/logo.svg" alt="Presently logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="./index.html" class="nav-link"><span class="current">Home</span></a>
+                </li>
+                <li>
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="./practice.html" class="nav-link">Practice</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="nav-link">Reach Us</a>
+                </li>
+            </ul>
+            <!--Mobile menu button-->
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+            <!--Mobile navigation-->
+            <ul class="menu-mobile">
+                <li>
+                    <a href="./index.html" class="nav-link"><span class="current">Home</span></a>
+                </li>
+                <li>
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="./practice.html" class="nav-link">Practice</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="landing-page">
+        <h1>Navigating the Noise: Explore Mindfulness</h1>
+        <div class="container">
+            <div class="landing-text">
+                <p>
+                    Mindfulness is the art of being fully present in the moment, acknowledging and 
+                    accepting your thoughts, feelings, and sensations without judgment. It's about 
+                    cultivating awareness of the present moment, which enables you to respond to 
+                    life's challenges with clarity, composure, and reduced stress. 
+                    Explore our website to learn techniques that can help you cultivate 
+                    mindfulness in your daily life.
+                </p>
+                <a href="./practice.html" class="button-primary">Explore mindfulness techniques</a>
+            </div>
+            <div class="side-img">
+                <img src="./media/branding/home-landing.png" alt="Home landing page image" class="landing-image"/>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <main>
+       <section class="topic-intro">
+        <h2>Mindfulness in a Nutshell</h2>
+        <div class="container">
+            <div class="side-text">
+                <p>
+                    Imagine being fully aware of what's happening right now, from your thoughts and 
+                    feelings to your body and the world around you. That's mindfulness! It's about paying 
+                    attention in a kind and gentle way, without judgment. Instead of getting caught up in 
+                    the past or worrying about the future, mindfulness helps us focus on the present moment.
+                </p>
+                <p>
+                    While mindfulness helps us stay calm in stressful situations, it actually goes deeper than that. 
+                    By observing our thoughts and feelings without judgment, we can develop a greater understanding 
+                    of ourselves. This can lead to increased self-compassion, allowing us to navigate difficult emotions
+                    with more grace and acceptance.
+                </p>
+            </div>
+            <div class="side-img">
+                <img src="./media/branding/Home-section1.png" alt="Mindfulness walk picture "/>
+            </div>
+        </div>
+       </section>
+       <hr>
+       <section class="pillars">
+        <h2>The Four Pillars of Mindfulness</h2>
+        <p class="heading-text">
+            Some of the most beautiful benefits of meditation are that it makes your heart more supple, transforms your emotions, and opens the door 
+            to heightened self-awareness. Once you have been able to see directly as an experience that most thoughts, emotions, and behavior that manifest 
+            in life are not about you, they are merely happening to you and are impermanent—you learn to live lightly.
+        </p>
+        <div class="pillars-table">
+            <div class="row">
+                <div class="block-quote">
+                    <span class="num">1</span>
+                    <blockquote>
+                        <span class="title">Body Mindfulness</span>
+                        The first pillar is mindfulness of the physical self. Give attention to each 
+                        part of the body, not just a cursory observation but an immersive scan 
+                        of your physical self from within.
+                        <a data-bs-toggle="modal" href="#pillar1" class="pillar-link">Learn more</a>
+                    </blockquote>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="pillar1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Body Mindfulness</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    The first pillar is mindfulness of the physical self. Give attention to each part of the body, not just a cursory observation but an immersive 
+                                    scan of your physical self from within. As Buddha said, “contemplate the body in the body…to know the body as it really is.” 
+                                </p>
+                                <p>
+                                    Also, observe the movement of the breath going into the body as well as leaving it. Keep observing the breath while engaging in any action, 
+                                    whether it be eating or drinking, meditating, or walking. This also involves observing ever so minutely the temporary nature of this body—with 
+                                    various organs and tissues continuously in a state of decay and renewal.
+                                </p>
+                                <p>
+                                    If you are someone who is dealing with sadness, depression, or anxiety, mindfulness of the body is an important way to reign in these patterns 
+                                    since much of the body functions without voluntary involvement...
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="button-primary" href="https://artoflivingretreatcenter.org/blog/the-four-pillars-of-mindfulness/" target="_blank" rel="noopener noreferrer">
+                                    Read article
+                                </a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-quote">
+                    <span class="num">2</span>
+                    <blockquote>
+                        <span class="title">Mindfulness of Feelings</span>
+                        The second foundation is mindfulness of feelings or vedana. More subtle 
+                        than the breath and body are feelings. They can be pleasant, unpleasant, 
+                        or neutral. 
+                        <a data-bs-toggle="modal" href="#pillar2"  class="pillar-link">Learn more</a>
+                    </blockquote>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="pillar2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Mindfulness of Feelings</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    The second foundation is mindfulness of feelings or vedana. More subtle than the breath and body are feelings. They can be pleasant, unpleasant, 
+                                    or neutral. Once you begin with observing them, you realize two things—feelings are temporary, and secondly, how you react to them decides how 
+                                    much sway they have on your psyche and well-being.
+                                </p>
+                                <p>
+                                    For example, getting too attached to a pleasurable feeling can lead to disappointment or sadness because no feeling or cause of a feeling is 
+                                    going to stick forever. Similarly, you make it stay longer when you are averse to a feeling because it is unpleasant. Trying to curb or suppress 
+                                    these feelings creates more problems and can even lead to physical or psychosomatic illnesses.
+                                </p>
+                                <p>
+                                    Mindfulness of feelings allows us to witness them without necessarily attaching too much importance or running away from them. We find that the 
+                                    demons of our feelings do not last, nor did they have anything to do with us...
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="button-primary" href="https://artoflivingretreatcenter.org/blog/the-four-pillars-of-mindfulness/" target="_blank" rel="noopener noreferrer">
+                                    Read article
+                                </a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="block-quote">
+                    <span class="num">3</span>
+                    <blockquote>
+                        <span class="title">Mindfulness of Mind</span>
+                        The third pillar is mindfulness of our states of mind. When you sit down 
+                        for meditation, you may observe that the mind is all over or there may be 
+                        too many thoughts
+                        <a data-bs-toggle="modal" href="#pillar3" class="pillar-link">Learn more</a>
+                    </blockquote>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="pillar3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Mindfulness of Mind</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    The third pillar is mindfulness of our states of mind. When you sit down for meditation, you may observe that the mind is all over or there 
+                                    may be too many thoughts. Sometimes it may be agitated and restless, or a single thought may show up repeatedly in various ways.
+                                </p>
+                                <p>
+                                    Nevertheless, observing your mental state as part of mindfulness is important after going through the first two stages. By observing the body, 
+                                    breath, and feelings, you will find the mind is already calmer and more settled as the cause of thoughts has been addressed by becoming mindful 
+                                    in the first two steps. Through observation, you will find that you are separate from mental states that are constantly changing.
+                                </p>
+                                <p>
+                                    For so long you have associated your identity with your thoughts but they are not you! So you can stop judging yourself for them. You’ll find 
+                                    that this mind that seems so adamant—as if it had any solidity to it, as if it controlled every waking hour of life—does not have an existence 
+                                    of its own. With mindfulness, ironically, the state of “no mind” is reached...
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="button-primary" href="https://artoflivingretreatcenter.org/blog/the-four-pillars-of-mindfulness/" target="_blank" rel="noopener noreferrer">
+                                    Read article
+                                </a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-quote">
+                    <span class="num">4</span>
+                    <blockquote>
+                        <span class="title">Mindfulness of Dharma</span>
+                        At its core, dharma goes beyond a limited religious concept. In some, it 
+                        stands for righteous path, in others, it stands for truth, norms, principles, 
+                        teachings, or even phenomena.
+                        <a data-bs-toggle="modal" href="#pillar4" class="pillar-link">Learn more</a>
+                    </blockquote>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="pillar4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Mindfulness of Dharma</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    At its core, dharma goes beyond a limited religious concept. In some, it stands for righteous path, in others, it stands for truth, norms, 
+                                    principles, teachings, or even phenomena.
+                                </p>
+                                <p>
+                                    In connection with Buddhism, it relates to all of Buddha’s teachings that are studied or observed as spiritual truths or laws. For example, 
+                                    through careful self-observation, the practitioner realizes that there is misery in life—there is a cause for it, and there is a way to end it.
+                                </p>
+                                <p>
+                                    Every cause of misery in life, be it events and emotions or thoughts triggered by the events, the good and the bad, the pleasant and the unpleasant, 
+                                    our bodily existence itself—all of it is finite... 
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="button-primary" href="https://artoflivingretreatcenter.org/blog/the-four-pillars-of-mindfulness/" target="_blank" rel="noopener noreferrer">
+                                    Read article
+                                </a>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       </section>
+       <hr>
+       <section class="carousel">
+        <h2>Practicing Mindfulness</h2>
+        <div class="carousel-items">
+        <div class="carousel-slide">
+            <div class="carousel-nav">
+                <span id="moveLeft" class="carousel-arrow">
+                    <svg class="carousel-icon" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+                    </svg>
+                </span>
+                <span id="moveRight" class="carousel-arrow" >
+                    <svg class="carousel-icon"  width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+                    </svg>    
+                </span>
+            </div>
+            <div class="carousel-unit carousel-unit-1">
+                <div class="carousel-unit-image"></div>
+                <div class="carousel-unit-info">
+                    <h3 class="carousel-unit-title">Mindful Breathing Meditation</h3>
+                    <p class="carousel-unit-description"> 
+                        This core mindfulness technique focuses on your breath as an anchor for attention. Observe your 
+                        breath without controlling it, allowing thoughts to come and go without judgment.
+                        <br>
+                        <span>Benefits:</span>
+                        Reduced stress and anxiety, improved focus and concentration.
+                    </p>
+                    <a href="./practice.html" class="button-primary carousel-unit-btn">Start practicing</a>
+                </div>
+            </div>
+            <div class="carousel-unit carousel-unit-2">
+                <div class="carousel-unit-image"></div>
+                <div class="carousel-unit-info">
+                    <h3 class="carousel-unit-title">Body Scan Meditation</h3>
+                    <p class="carousel-unit-description">
+                        This meditation involves systematically directing your attention to different parts of your 
+                        body. Notice bodily sensations without judgment, fostering relaxation and present-moment awareness.   
+                        <br>
+                        <span>Benefits:</span>
+                        Reduced stress and anxiety, improved body awareness, and deeper relaxation.                
+                    </p>
+                    <a href="./practice.html" class="button-primary carousel-unit-btn">Start practicing</a>
+                </div>
+            </div>
+            <div class="carousel-unit carousel-unit-3">
+                <div class="carousel-unit-image"></div>
+                <div class="carousel-unit-info">
+                    <h3 class="carousel-unit-title">Mindful Movement</h3>
+                    <p class="carousel-unit-description">
+                        Mindful movement integrates awareness into physical activity. Pay attention to your body's 
+                        sensations as you move, focusing on breath and coordination.
+                        <br>
+                        <span>Benefits:</span>
+                        Increased body awareness, reduced stress, and improved coordination.
+                    </p>
+                    <a href="./practice.html" class="button-primary carousel-unit-btn">Start practicing</a>
+                </div>
+            </div>
+            <div class="carousel-unit carousel-unit-4">
+                <div class="carousel-unit-image"></div>
+                <div class="carousel-unit-info">
+
+                    <h3 class="carousel-unit-title">Uni-tasking</h3>
+                    <p class="carousel-unit-description">
+                        In a world of constant multitasking, uni-tasking brings focus back to one thing at a time. 
+                        Devote your full attention to the task at hand, minimizing distractions and interruptions.
+                        <br>
+                        <span>Benefits:</span>
+                        Improved quality of work, reduced stress, and enhanced focus.
+                    </p>
+                    <a href="./practice.html" class="button-primary carousel-unit-btn">Start practicing</a>
+                </div>
+            </div>
+        </div>
+        </div>
+       </section>
+    </main>
+    <hr>
+    <article class="cta">
+        <h2>Subscribe for More Information</h2>
+        <div class="container">
+            <img src="./media/branding/subscribe-info.png" alt="picture of a mailbox with mail inside"/>
+            <div class="subscribe-form">
+                <label for="subscribe-email">Please enter your email address:</label>
+                <input type="email" name="email" id="subscribe-email" placeholder="name@example.com">
+                <button type="button" class="button-primary button-form" id="subscribe-button">Subscribe now</button>
+                <div id="subscribe-feedback"></div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <div class="footer-logo">
+            <img src="./media/branding/footer-logo.png" alt="Presently"/>
+            <p>&copy; 2024 Presently. All Rights Reserved.</p>
+        </div>
+        <nav class="footer-nav">
+            <h3>Sitemap</h3>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./practice.html">Practice</a></li>
+                <li><a href="./contact.html">Reach us</a></li>
+            </ul>
+        </nav>
+        <div class="site-info">
+            <h3>Information</h3>
+            <a href="./media/downloads/Presently Website Disclaimer.pdf" download="Presently Website Disclaimer.pdf" target="_blank">Disclaimer</a>
+        </div>
+        <div class="contact-info">
+            <h3>Reach us</h3>
+            <a href="mailto:tmtsweni@hotmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                info@presently.com
+            </a>
+            <a href="tel:+27813276153">
+                <i class="fa-solid fa-phone"></i>
+                081 327 6153
+            </a>
+        </div>
+    </footer>
+    <!--Main script-->
+    <script src="./js/main.js"></script>
+    <script src="./js/carousel.js"></script>
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

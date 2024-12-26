@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Mindfulness</title>
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./media/branding/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./media/branding/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./media/branding/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./media/branding/favicon/site.webmanifest">
+    <!--Lato font from Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Fontawesome icons-->
+    <script src="https://kit.fontawesome.com/76e3c9c22e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--Boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CSS Style Sheet-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <a href="./index.html" class="logo">
+                <img src="./media/branding/logo.svg" alt="Presently logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="./practice.html" class="nav-link"><span class="current">Practice</span></a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="nav-link">Reach Us</a>
+                </li>
+            </ul>
+            <!--Mobile menu button-->
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+            <!--Mobile navigation-->
+            <ul class="menu-mobile">
+                <li>
+                    <a href="./index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="./practice.html" class="nav-link"><span class="current">Practice</span></a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="nav-link">Reach Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="landing-page">
+        <h1>Get Hands-On: Practice Mindfulness</h1>
+        <div class="container">
+            <div class="landing-text">
+                <p>
+                    In our whirlwind world, feeling overwhelmed and scattered is all too common. But what if 
+                    there was a simple yet powerful tool to bring calm, clarity, and focus back into your life? 
+                    Mindfulness offers just that. By taking a moment to be present, to truly connect with your 
+                    breath and body sensations, you can unlock a sense of inner peace and well-being. Ready 
+                    to reduce stress, improve focus, and cultivate a happier, more fulfilling life? Start your 
+                    mindfulness journey here and discover the transformative power of being present in the 
+                    moment.
+                </p>                                   
+            </div>
+            <div class="side-img">
+                <img src="./media/branding/practice-landing.png" alt="about landing page image" class="landing-image"/>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <main>
+        <section class="practice">
+            <h2>Time To Be Presently</h2>
+            <p class="heading-text">
+                Ready to cultivate more calm and clarity in your daily life? Dive into these beginner-friendly mindfulness techniques you can
+                practice every day. The following instructions will guide you step-by-step through each exercise, helping you experience the 
+                benefits of mindfulness firsthand. 
+            </p>
+            <div class="container-tab">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="breathing-tab" data-bs-toggle="tab" data-bs-target="#breathing-tab-pane" type="button" role="tab" aria-controls="breathing-tab-pane" aria-selected="true">
+                        Mindful breathing
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="scan-tab" data-bs-toggle="tab" data-bs-target="#scan-tab-pane" type="button" role="tab" aria-controls="scan-tab-pane" aria-selected="false">
+                        Body scan
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="walking-tab" data-bs-toggle="tab" data-bs-target="#walking-tab-pane" type="button" role="tab" aria-controls="walking-tab-pane" aria-selected="false">
+                        Mindful walking
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="focus-tab" data-bs-toggle="tab" data-bs-target="#focus-tab-pane" type="button" role="tab" aria-controls="focus-tab-pane" aria-selected="false">
+                        Uni-tasking
+                      </button>
+                    </li>
+                </ul> 
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="breathing-tab-pane" role="tabpanel" aria-labelledby="breathing-tab" tabindex="0">
+                        <div class="container">
+                            <img class="tab-img" src="./media/branding/practice-breathing.png" alt="An image of a person practing mindful breathing" >
+                            <div class="instructions">
+                            <h4>Mindful Breathing</h4>
+                            <h5>Find a quiet space</h5>
+                            <p>
+                                Choose a comfortable and quiet environment where you won't be interrupted. 
+                                Sit in a chair with your back straight or lie down on a yoga mat or bed, whatever 
+                                feels comfortable.
+                            </p>
+                            <h5>Set a timer</h5>
+                            <p>
+                                If you're new to meditation, set a timer for 5-10 minutes to guide your practice. 
+                                With experience, you can gradually increase the duration.
+                            </p>
+                            <h5>Close your eyes</h5>
+                            <p>
+                                This helps reduce distractions, but you can keep them open if that feels more 
+                                comfortable.
+                            </p>
+                            <h5>Focus on your breath</h5>
+                            <p>
+                                Gently bring your attention to your natural breath. Notice the sensation of your 
+                                breath entering and leaving your nostrils or chest. Don't try to control your breath, 
+                                simply observe it.
+                            </p>
+                            <h5>Wandering mind</h5>
+                            <p>
+                                It's natural for your mind to wander during meditation. Don't judge yourself; simply 
+                                acknowledge the thought and gently bring your attention back to your breath.
+                            </p>
+                            <h5>End practice</h5>
+                            <p>
+                                When the timer goes off (or when you're ready), take a few moments to sit quietly. 
+                                Notice any bodily sensations or sounds around you. Then, slowly open your eyes 
+                                and take a few deep breaths before returning to your day.
+                            </p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="tab-pane fade" id="scan-tab-pane" role="tabpanel" aria-labelledby="scan-tab" tabindex="0">
+                        <div class="container">
+                            <img class="tab-img" src="./media/branding/practice-scan.png" alt="An image of a person practing mindful breathing" >
+                            <div class="instructions">
+                            <h4>Body Scan Meditation</h4>
+                            <h5>Find a comfortable position</h5>
+                            <p>
+                                Lie down on your back on a yoga mat or bed, or sit comfortably in a chair. Close your eyes.
+                            </p>
+                            <h5>Body awareness</h5>
+                            <p>
+                                Take a few moments to become aware of your entire body resting on the surface.
+                            </p>
+                            <h5>Scan your body</h5>
+                            <p>
+                                Begin by focusing your attention on your toes. Notice any sensations in your 
+                                toes, like tingling, warmth, or pressure – without judgment.
+                            </p>
+                            <h5>Slowly move upward</h5>
+                            <p>
+                                Gradually move your attention upwards, focusing on each body part in turn. 
+                                Scan your feet, ankles, calves, and so on, all the way up to your head.
+                            </p>
+                            <h5>Observe sensation</h5>
+                            <p>
+                                Notice any sensations you experience in each body part – tension, relaxation, 
+                                warmth, coolness, etc.
+                            </p>
+                            <h5>End practice</h5>
+                            <p>
+                                Once you've scanned your entire body, take a few moments to lie or sit quietly, 
+                                observing any overall sensations. Then, slowly open your eyes (if closed) and return to your day.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="walking-tab-pane" role="tabpanel" aria-labelledby="walking-tab" tabindex="0">
+                        <div class="container">
+                            <img class="tab-img" src="./media/branding/practice-walk.png" alt="">
+                        <div class="instructions">
+                            <h4>Mindful Walking Meditation</h4>
+                            <h5>Find a walking space</h5>
+                            <p>
+                                Choose a quiet space where you can walk comfortably for a few minutes. It could be indoors 
+                                or outdoors.
+                            </p>
+                            <h5>Slow down</h5>
+                            <p>
+                                Begin walking at a slow and deliberate pace. Focus on the feeling of your feet making contact 
+                                with the ground.
+                            </p>
+                            <h5>Body awareness</h5>
+                            <p>
+                                Pay attention to the physical sensations in your body as you walk. Notice the movement of your 
+                                legs, the rise and fall of your chest, and the rhythm of your breath.
+                            </p>
+                            <h5>Engage your senses</h5>
+                            <p>
+                                Be mindful of your surroundings. Notice sights, sounds, smells, and even the temperature on your skin.
+                            </p>
+                            <h5>Present moment</h5>
+                            <p>
+                                If your mind wanders to thoughts about the past or future, gently acknowledge them and bring your attention 
+                                back to the present moment sensations of walking.
+                            </p>
+                            <h5>End practice</h5>
+                            <p>
+                                After a few minutes of mindful walking, stop and stand still for a moment. Notice how your body feels. Then, 
+                                continue with your day with a renewed sense of presence.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="focus-tab-pane" role="tabpanel" aria-labelledby="focus-tab" tabindex="0">
+                        <div class="container">
+                            <img class="tab-img" src="./media/branding/practice-focus.png" alt="">
+                            <div class="instructions">
+                                <h4>Uni-tasking</h4>
+                                <h5>Choose a task</h5>
+                                <p>
+                                    Select a single task you need to complete, such as writing an email, doing homework, or washing dishes.
+                                </p>
+                                <h5>Minimize distractions</h5>
+                                <p>
+                                    Put your phone on silent and close any unnecessary browser tabs or applications. Inform others around 
+                                    you that you'll need focused time to complete the tas
+                                </p>
+                                <h5>Body awareness</h5>
+                                <p>
+                                    Pay attention to the physical sensations in your body as you walk. Notice the movement of your 
+                                    legs, the rise and fall of your chest, and the rhythm of your breath.
+                                </p>
+                                <h5>Be present</h5>
+                                <p>
+                                    As you begin the task, give it your full attention. Focus on each step of the process and avoid 
+                                    thinking about what you need to do next.
+                                </p>
+                                <h5>Notice distractions</h5>
+                                <p>
+                                    When your mind wanders or you reach for your phone, acknowledge the distraction without judgment. 
+                                    Gently refocus your attention on the task at hand.
+                                </p>
+                                <h5>Celebrate completion</h5>
+                                <p>
+                                    Once you've completed the task, take a moment to appreciate your accomplishment. This reinforces 
+                                    the benefits of single-tasking and motivates you to continue practicing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>            
+            
+        </section>
+        <hr>
+        <article class="communities">
+            <h2>Mindfulness Communities</h2>
+            <div class="container">
+                <div class="community">
+                    <div class="community-item">
+                        <img src="./media/branding/communities/mindful.png" alt="mindful.org logo">
+                        <span>Mindful.org</span>
+                        <a href="https://www.facebook.com/mindfulorg/" target="_blank" rel="noopener noreferrer">View page</a>
+                    </div>
+                    <div class="community-item">
+                        <img src="./media/branding/communities/mindfulness_com_logo.jpg" alt="mindfulness.com logo">
+                        <span>Mindfulness.com</span>
+                        <a href="https://www.linkedin.com/company/mindfulness-com" target="_blank" rel="noopener noreferrer">View page</a>
+                    </div>
+                    <div class="community-item">
+                        <img src="./media/branding/communities/calm.png" alt="calm.com logo">
+                        <span>Calm.com</span>
+                        <a href="https://www.calm.com/" target="_blank" rel="noopener noreferrer">View page</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="./media/branding/footer-logo.png" alt="Presently"/>
+            <p>&copy; 2024 Presently. All Rights Reserved.</p>
+        </div>
+        <nav class="footer-nav">
+            <h3>Sitemap</h3>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./practice.html">Practice</a></li>
+                <li><a href="./contact.html">Reach us</a></li>
+            </ul>
+        </nav>
+        <div class="site-info">
+            <h3>Information</h3>
+            <a href="./media/downloads/Presently Website Disclaimer.pdf" download="Presently Website Disclaimer.pdf" target="_blank">Disclaimer</a>
+        </div>
+        <div class="contact-info">
+            <h3>Reach us</h3>
+            <a href="mailto:tmtsweni@hotmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                info@presently.com
+            </a>
+            <a href="tel:+27813276153">
+                <i class="fa-solid fa-phone"></i>
+                081 327 6153
+            </a>
+        </div>
+    </footer>
+     <!--Main script-->
+     <script src="./js/main.js"></script>
+     <!--Bootstrap js-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>
